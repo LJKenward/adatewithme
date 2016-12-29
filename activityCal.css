@@ -45,7 +45,7 @@ header {
 .hero-content {
   font: 1.9em "Pacifico", sans-serif;
   color: white;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 12.5%;
   margin-right: 12.5%;
   line-height: 50%;
@@ -59,7 +59,7 @@ header {
 .content {
   background-color: #ffffff;
   padding: 1em 0 0;
-  position: relative;
+  /*position: relative;*/
   color: darkgrey;
 }
 
@@ -71,8 +71,6 @@ header {
 span {
   letter-spacing: 1px;
 }
-
-
 
 .section-header {
   font-size: 2rem;
@@ -94,7 +92,7 @@ footer .footer-container {
   /*height:400px;*/
   margin:50px auto;
 	text-align: center;
-	color: mistyrose;
+	color: #fff;
   line-height:0.85;
   font-family: Open Sans, sans-serif;
   font-weight: bold;
@@ -110,19 +108,19 @@ footer .footer-container {
   font-size: 70px;
   position: relative;
   z-index: 1;
-  text-shadow: 5px 0 0 #fff,
-				-5px 0 0 #fff,
-				0 5px 0 #fff,
-				0 -5px 0 #fff,
-				4px 4px #fff,
-				-4px -4px 0 #fff,
-				4px -4px 0 #fff,
-				-4px 4px 0 #fff;
+  text-shadow: 5px 0 0 #ff8e82,
+				-5px 0 0 #ff8e82,
+				0 5px 0 #ff8e82,
+				0 -5px 0 #ff8e82,
+				4px 4px #ff8e82,
+				-4px -4px 0 #ff8e82,
+				4px -4px 0 #ff8e82,
+				-4px 4px 0 #ff8e82;
   -webkit-transform: rotate(-2deg);
   transform: rotate(-2deg);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
-  color:mistyrose;
+  color:#fff;
 }
 
 .type span:nth-child(3) {
