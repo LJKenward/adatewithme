@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Pacifico');
+
+html, body {
+  color: white;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-color: #ff8e82;
+}
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+
+.hero-content {
+  font: 1.9em "Pacifico", sans-serif;
+  color: white;
+  margin-top: 10%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  line-height: 50%;
+  letter-spacing: 2px;
+}
+
+.two {
+  font: 1.5rem "Lato", sans-serif;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 1em 0 0;
+  position: relative;
+  color: darkgrey;
+}
+
+.container {
+  max-width: 75%;
+  margin: 4em auto;
+}
+
+span {
+  letter-spacing: 1px;
+}
+
+
+
+.section-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #ff8e82;
+}
+footer .footer-container {
+}
+
+.type span {
+  display:block;
+}
+
+.type {
+  width:400px;
+  /*height:400px;*/
+  margin:50px auto;
+	text-align: center;
+	color: mistyrose;
+  line-height:0.85;
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+}
+
+.type span:nth-child(1) {
+  font-size: 150px;
+}
+
+.type span:nth-child(2) {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 70px;
+  position: relative;
+  z-index: 1;
+  text-shadow: 5px 0 0 #fff,
+				-5px 0 0 #fff,
+				0 5px 0 #fff,
+				0 -5px 0 #fff,
+				4px 4px #fff,
+				-4px -4px 0 #fff,
+				4px -4px 0 #fff,
+				-4px 4px 0 #fff;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  color:mistyrose;
+}
+
+.type span:nth-child(3) {
+  font-size: 70px;
+  margin-top:-10px;
+}
